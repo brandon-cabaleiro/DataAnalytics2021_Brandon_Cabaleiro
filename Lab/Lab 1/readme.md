@@ -1,1 +1,1 @@
-This folder contains the files for Lab 1.
+This folder contains R code for Lab 1.
