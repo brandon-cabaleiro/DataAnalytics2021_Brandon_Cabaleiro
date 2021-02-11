@@ -1,1 +1,1 @@
-This folder contains code for Lab 2 for Data Analytics.
+This folder contains R code and plots for Lab 2.
