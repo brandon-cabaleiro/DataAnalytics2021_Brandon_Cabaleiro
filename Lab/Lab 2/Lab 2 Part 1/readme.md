@@ -1,1 +1,1 @@
-This folder contains code for Lab 2 Part 1
+This folder contains code and plots for Lab 2 Part 1.
