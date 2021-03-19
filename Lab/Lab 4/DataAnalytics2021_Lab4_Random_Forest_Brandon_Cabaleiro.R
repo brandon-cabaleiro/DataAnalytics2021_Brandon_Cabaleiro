@@ -8,8 +8,6 @@
 # random forest.
 #************************************************
 
-#Hi Mukesh and Professor Thilanka, still working on this lab.
-
 library(randomForest)
 library(titanic)
 
