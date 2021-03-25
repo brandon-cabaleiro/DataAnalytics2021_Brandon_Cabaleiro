@@ -10,6 +10,8 @@
 
 library(randomForest)
 library(titanic)
+library(rpart)
+library(party)
 
 head(titanic_train)
 
@@ -49,5 +51,16 @@ model2
 # output predictions
 predTrain <- predict(model1, titanic_train_imputed, type="class")
 table(predTrain, titanic_train_imputed$Survived)
+
+# create rpart model
+model1_rpart <- rpart(Survived ~ ., data=titanic_train_imputed)
+
+# output result
+plot(model1_rpart)
+text(model1_rpart)
+
+# create ctree model
+model1_ctree <- ctree(Survived ~ ., data=titanic_train_imputed)
+plot(model1_ctree)
 
 
